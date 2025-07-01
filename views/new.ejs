@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= title %> </title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <form method="POST" action="/new">
+        <label for="username">username: </label>
+        <input type="text" name="username" required>
+
+        <label for="message">message: </label>
+        <input type="text" name="messageText" required>
+
+        <button type="submit">Post Message</button>
+    </form>
+</body> 
+</html>         

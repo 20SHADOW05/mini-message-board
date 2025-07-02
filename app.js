@@ -16,4 +16,5 @@ app.use('/', indexRouter);
 app.use('/new', newRouter);
 app.use('/message', messageRouter)
 
-app.listen(3000);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT);
